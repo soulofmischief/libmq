@@ -7,9 +7,12 @@
   "author": "soulofmischief <soulofmischief@protonmail.com>",
   "license": "MIT",
   "scripts": {
+    "coverage": "nyc --reporter=lcov ospec",
+    "report-coverage": "yarn coverage && codecov",
     "test": "ospec"
   },
   "devDependencies": {
+    "nyc": "^14.1.1",
     "ospec": "^4.0.1"
   }
 }
