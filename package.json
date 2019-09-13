@@ -1,0 +1,15 @@
+{
+  "name": "libmq",
+  "version": "0.1.0",
+  "description": "A simple media query library for web browsers.",
+  "main": "lib/index.js",
+  "repository": "https://github.com/soulofmischief/libmq",
+  "author": "soulofmischief <soulofmischief@protonmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "ospec"
+  },
+  "devDependencies": {
+    "ospec": "^4.0.1"
+  }
+}
