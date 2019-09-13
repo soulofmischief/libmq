@@ -115,21 +115,6 @@ o.spec( 'tabletLandscapeUp', function () {
 })
 
 
-o.spec( 'tabletPortraitUp', function () {
-  o( 'empty', function () {
-    o( q.tabletPortraitUp()).equals( false )
-  })
-
-  o( 'parameter -> true', function () {
-    o( q.tabletPortraitUp( w.tabletPortraitUp )).equals( true )
-  })
-
-  o( 'parameter -> false', function () {
-    o( q.tabletPortraitUp( w.tabletPortraitUp - 1)).equals( false )
-  })
-})
-
-
 o.spec( 'landscape', function () {
   o( 'empty', function () {
     o( q.landscape()).equals( true )
