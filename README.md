@@ -27,3 +27,17 @@ if ( query.desktopUp( w.bigDesktopUp ))
   console.log( "This module isn't broken." )
 
 ```
+
+## API
+
+Each method tests window.innerWidth or a provided value against the following conditions:
+
+* bigDesktopUp() - Above 1800px
+* desktopUp() - Above 1200px
+* phoneOnly() - Below 599px
+* tabletPortraitDown() - Below 899px
+* tabletPortraitUp() - Above 600px
+* tabletLandscapeDown() - Below 899px
+* tabletLandscapeUp() - Above 600px
+* landscape() - Greater than or equal to window.innerHeight
+* portrait() - Less than window.innerHeight
