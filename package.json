@@ -12,6 +12,7 @@
     "test": "ospec"
   },
   "devDependencies": {
+    "codecov": "^3.5.0",
     "nyc": "^14.1.1",
     "ospec": "^4.0.1"
   }
