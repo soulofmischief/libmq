@@ -6,6 +6,11 @@
   "repository": "https://github.com/soulofmischief/libmq",
   "author": "soulofmischief <soulofmischief@protonmail.com>",
   "license": "MIT",
+  "keywords": [
+    "media query",
+    "node",
+    "browser"
+  ],
   "scripts": {
     "coverage": "nyc --reporter=lcov ospec",
     "report-coverage": "yarn coverage && codecov",
